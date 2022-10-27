@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: block;
+}
+.heading {
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+main {
+    margin: 50px;
+    display: block;
+}
+.box {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: auto auto;
+    height: 400px;
+    width: 600px;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px #989898;
+}
+.person {
+    padding: 30px;
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
+.img {
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.person__name {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+}
+.person__job {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.btns {
+    display: block;
+}
+.btn {
+
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.btn:hover {
+    background-color: red;
+}
